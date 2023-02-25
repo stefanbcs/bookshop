@@ -1,0 +1,61 @@
+.nav-item {
+  text-decoration: none !important;
+  color: rgb(182, 182, 182) !important;
+  padding: 0.5rem 1rem;
+}
+
+.nav-item:hover, .nav-item.active {
+  color: white !important;
+  cursor: pointer;
+}
+
+.dropdown, .dropdown-toggle {
+  padding: 0 !important;
+}
+
+.form-text span {
+  cursor: pointer;
+}
+
+.toast-container {
+  position: fixed !important;
+}
+
+.footer {
+  bottom: 0;
+  display: flex;
+  height: 100px;
+  width: 100%;
+  padding: 25px;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.footer-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+}
+
+.footer-item {
+  margin: 0 20px;
+  font-size: 24px;
+}
+
+.footer-item > a {
+  color: black;
+}
+
+.footer-item > a:hover{
+  color: #f60000;
+}
+
+@media (max-width: 600px){
+  .footer{
+      flex-direction: column;
+  }
+  .footer-list{
+      padding-left: 0;
+  }
+}

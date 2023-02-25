@@ -1,0 +1,25 @@
+.main-homepage {
+    width: 100%;
+    height: calc(100vh - 56px);
+    background-image: url("https://wallpaperaccess.com/full/124383.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.main-content {
+    width: 100%;
+    height: calc(100vh - 330px);
+    margin: 0;
+}
+
+.homepage-footer .footer-item > a:hover{
+    color: white;
+}
+
+.homepage-footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    margin: auto;
+}

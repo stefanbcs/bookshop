@@ -1,0 +1,24 @@
+.book-details-img {
+    height: 20rem;
+    padding-left: 30%;
+}
+
+.details-title {
+    text-align: center;
+}
+
+.details-author {
+    text-align: center;
+}
+
+.container-details {
+    padding-top: 5rem;
+}
+
+.star{
+    color: yellow;
+}
+
+.container-footer {
+    height: calc(100vh - 66px - 72px - 200px)
+}

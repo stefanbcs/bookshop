@@ -1,0 +1,31 @@
+{
+  "name": "webshop-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "mocha **/*.spec.js"
+  },
+  "nodemonConfig": {
+    "ignore": [
+      "data/orders.json"
+    ]
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-errors": "^1.8.1",
+    "react-bootstrap": "^2.2.1",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "mocha": "^9.1.3",
+    "morgan": "^1.10.0"
+  }
+}

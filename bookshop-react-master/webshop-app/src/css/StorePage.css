@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  overflow-x: hidden;
+}
+
+.action-buttons {
+  padding: 5px 15px;
+}
+
+.edit-btn {
+  border: none;
+  background-color: white;
+  color: blue;
+}
+
+.delete-btn {
+  border: none;
+  border-left: 1px solid black;
+  background-color: white;
+  color: red;
+}
+
+.book-img {
+  text-align: center;
+  height: 350px;
+  background-color: #f7ebeb;
+  width: 90%;
+  margin: auto;
+}
+
+.book-img img {
+  width: 170px;
+  height: 220px;
+}
+
+.book-info {
+  width: 90%;
+  margin: auto;
+  height: 270px;
+  padding: 5px 5px 10px 10px;
+  border: 1px solid #f7ebeb;
+}
+
+.book-card {
+  padding: 0 0 5px 0;
+}
+
+.actionButtons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+}
+
+.hide-form {
+  display: none;
+}
+
+.filter-form {
+  overflow: auto;
+  padding: 18px;
+  height: 50%;
+  width: 51%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ffffff;
+  margin: auto;
+  border: 1px solid #9b9b9b;
+  box-shadow: 0 0 26px 6px;
+  z-index: 1000;
+}
+
+.filter-buttons div {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.input-group-text {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+}
+
+.border-none {
+    border-top-left-radius: 0 !important;
+    border-bottom-left-radius: 0 !important;
+    border-left: none !important;
+}
+  
+legend {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+label {
+  padding-left: 5px;
+}
+
+.close-form {
+  cursor: pointer;
+}
+
+.filter-title {
+  font-size: 21px;
+  text-decoration: underline;
+}
+
+.input-group {
+  width: auto;
+}
+
+.fa-sort {
+  padding-right: 10px;
+}
+
+.discounted {
+  text-decoration: line-through 2px red;
+}
+
+.checked {
+  color: orange;
+}
+
+.unchecked {
+  color: #d0d0d0;
+}
+
+.fa-search {
+  align-self: center;
+}
+
+.hide {
+  display: none !important;
+}
+
+@media (max-width: 768px) {
+  .filter-toggle {
+    text-align: right;
+  }
+}
+
+@media (max-width: 576px) {
+  .filter-form {
+    height: 100%;
+    width: 100%;
+  }
+}

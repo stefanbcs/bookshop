@@ -1,0 +1,23 @@
+.card-body p {
+    margin: 0;
+    font-size: 14px;
+}
+
+.order-main {
+    padding-top: 56px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.card-header:first-child {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    margin: 0px auto;
+}
+
+.order-main {
+    min-height: calc(100vh - 250px);
+}
