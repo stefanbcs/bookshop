@@ -31,4 +31,7 @@ Styling was made using: CSS, React-Bootstrap, Font Awesome Icons.
 ###    Not Found Page
 ![image](https://user-images.githubusercontent.com/93213785/221355894-74d50441-d355-4bce-82c8-b6f0145edc92.png)
 
-
+# Install and run instructions
+- `npm install -g nodemon`. Nodemon is a tool that helps Node.js based application development by automatically restarting the node application when file changes are detected.
+- `npm install` in each component
+- `npm start` in each component. REST API will run on [http://localhost:3001](http://localhost:3001). Open [http://localhost:3000](http://localhost:3000) to view client app in your browser
