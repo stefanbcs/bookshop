@@ -1,2 +1,2 @@
-# bookshop
-Bookshop application developed using ReactJS
+# Bookshop
+Webshop application developed using ReactJS
