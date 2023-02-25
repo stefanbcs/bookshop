@@ -1,12 +1,13 @@
 # Bookshop
+
 Webshop application developed using ReactJS
+Styling was made using: CSS, React-Bootstrap, Font Awesome Icons
 
-###Application has two main components:
+### Application has two main components:
 - REST API (webshop-api)
-- Client App (webshop-app)
-Styling was made using: CSS, React-Bootstrap, Font Awesome Icons 
+- Client App (webshop-app) 
 
-###Features of bookshop app:
+### Features of bookshop app:
 - Navbar and footer
 - Register and login forms
 - Validations
